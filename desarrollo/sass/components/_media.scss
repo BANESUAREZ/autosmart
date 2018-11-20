@@ -1,0 +1,115 @@
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) {  }
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) {
+  .boxbtn-examenMedico{
+    height: 180px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+  .seccion-title {
+    h2 {
+      font-size: 32px;
+    }
+  }
+  .panel-content{
+    padding: 24px 24px;
+  }
+
+  .footer{
+    &__head{
+      &--title{
+        font-size: 30px;
+      }
+    }
+  }
+}
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) { 
+  
+  nav.container{
+  }
+  .nav div.main_list ul li {
+    height: auto !important;
+  }
+  .nav{
+    height: auto !important;
+    line-height: auto;
+    padding: 0 !important;
+    ul{
+      background: peru;
+      height: auto !important;
+      li{
+        height: auto !important;
+        line-height: auto;
+        padding: 0 !important;
+      }
+      a{
+        background: blue;
+        padding: 0 !important;
+      }
+    }
+  }
+  .slider{  
+    &__content{
+      align-items: flex-start;
+      padding: 0 7.5%;
+
+    }
+  }
+  .panel-content{
+    padding: 24px;    
+  }
+  .page-indicator .indicator__box {
+    padding-top: 120px;
+  }
+  .page-indicator .indicator__box {
+    padding-top: 190px;
+  }
+  .tabs-home__box .tabs-home-content{
+    margin-left: -15px; 
+    margin-right: -15px; 
+  }
+  .footer{
+    &__head{
+      &--title{
+        font-size: 32px;
+      }
+    }
+  }
+  .boxbtn-examenMedico{
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+
+ }
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) {
+  .panel-content{
+    padding: 32px 28px 12px 28px;
+  }
+  .seccion-title {
+    margin-bottom: 12px;
+    h2{
+      margin-bottom: 12px;
+    }
+  }
+  .slider{
+    &__content{
+      h2{
+        font-size: 48px;
+      }
+    }
+  }
+  .pd-tb50{
+    padding: 75px 0;
+  }
+}

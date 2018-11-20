@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:300,400,700');/*
+$font_title : 'Lato', sans-serif;
+$font_subtitulo: "Gentium Book Basic script=all rev=2";
+$font_parrafo: 'Quicksand', sans-serif;
+*/
+// $primario : #141c65;
+// $secundario : #00AAE8;
+// $color-secundario: #0054A5;
+
+$primario : #fb4848;
+$secundario : #fb4848;
+$parrafo: #ccc;
+$color-secundario: #fb4848;
+
+$white: #fff;
+$gris: #495060;
+
+
+.titH2{
+  
+}
+.titH2:before {
+  content: '';
+  position: absolute;
+  // background: url(../../../produccion/img/timon.png);
+  background-size: cover;
+  width: 30px;
+  height: 30px;
+  left: 0;
+  top: 5px;
+  animation: spinY 4s infinite linear;
+}
+@keyframes spinY{
+  0% {
+    transform:  rotate(0deg);
+  }
+  31% {
+    transform:  rotate(18deg);
+  }
+  60% {
+    transform:  rotate(34deg);
+  }
+  100% {
+    transform:  rotate(0deg) ;
+  }
+}
